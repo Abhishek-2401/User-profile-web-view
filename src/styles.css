@@ -1,0 +1,10 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+input[type=radio] {
+    accent-color: black;
+  }
+  input[type=checkbox] {
+    accent-color: black;
+  }
