@@ -1,4 +1,3 @@
-// WebpageLocator.jsx
 import React from 'react';
 
 const WebpageLocator = ({ currentPage }) => {
