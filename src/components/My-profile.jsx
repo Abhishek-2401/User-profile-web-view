@@ -65,11 +65,8 @@ const MyProfileSection = () => {
             </div>
           </div>
           <div className="-mt-[40px] ml-[147px] flex items-center whitespace-nowrap">
-            {/* Updated to use whitespace-nowrap */}
             <p className="text-[#787878]  mr-10 text-sm font-normal">UI/UX designer</p>
-            {/* Occupation */}
             <div className="flex items-center space-x-2 max-w-xs mr-10">
-              {/* Updated with max-width */}
               <FontAwesomeIcon icon={faPhone} className="text-[#000000]" />
               {editMode ? (
                 <input
@@ -81,10 +78,8 @@ const MyProfileSection = () => {
               ) : (
                 <p className="text-[#787878] mr-10 text-sm font-normal">+91 9087 6543 21</p>
               )}
-              {/* Phone number */}
             </div>
             <div className="flex items-center space-x-4 max-w-xs mr-10">
-              {/* Updated with max-width */}
               <FontAwesomeIcon icon={faEnvelope} className="text-[#000000]" />
               {editMode ? (
                 <input
@@ -98,10 +93,8 @@ const MyProfileSection = () => {
                   johnwick@gmail.com
                 </p>
               )}
-              {/* Email ID */}
             </div>
             <div className="flex items-center space-x-4">
-              {/* Updated with max-width */}
               <FontAwesomeIcon
                 icon={faMapMarkerAlt}
                 className="text-[#000000]"
@@ -118,13 +111,11 @@ const MyProfileSection = () => {
                  Thiruvananthapuram, Kerala
                 </p>
               )}
-              {/* Address */}
             </div>
           </div>
           <hr className="my-4 mt-10 border-gray-300" />
           
           <div className=" labels grid grid-cols-3 mt-14 ml-16 gap-4">
-            {/* Row 1 */}
             <div className="mb-6 border-[1px] border-[#C2C2C2] rounded-lg h-12 w-[271px] relative flex items-center">
               <label
                 htmlFor="First Name"
@@ -189,7 +180,6 @@ const MyProfileSection = () => {
                   >
                     <option value="+91">+91</option>
                     <option value="+1">+1</option>
-                    {/* Add more country code options */}
                   </select>
                 ) : (
                   <p className="text-xs font-medium text-[#222222] ml-3">
@@ -206,7 +196,6 @@ const MyProfileSection = () => {
                   required
                 />
               </div>
-              {/* Phone number */}
             </div>
             <div className="mb-6 border-[1px] border-[#C2C2C2] rounded-lg h-12 w-[271px] relative flex items-center">              <label
                 htmlFor="Email ID"
@@ -306,9 +295,7 @@ const MyProfileSection = () => {
                 )}
               </div>
             </div>
-            {/* Other input fields */}
           </div>
-          {/* Edit and Exit Icons */}
           {editMode && (
             <div className="flex justify-center mt-8">
               <button
