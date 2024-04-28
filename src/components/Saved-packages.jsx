@@ -72,7 +72,6 @@ const MyBookings = () => {
         <hr className="border-b border-[#D9D9D9] border-[1px]  mb-2 w-full" />
         {/* Filter Section */}
         <div className="mb-4 p-2">
-          {/* Filter Heading */}
           <h3 className="text-base font-semibold text-[#181824] mb-2">
             Package Type
           </h3>
@@ -134,13 +133,11 @@ const MyBookings = () => {
               />
               Solo
             </label>
-            {/* Add more checkbox filters as needed */}
           </div>
           <hr className="border-b border-[#F1F0F6] border-[1px]  mb-2 w-full" />
           <h3 className="text-base font-semibold text-[#181824] mb-2">
             Sort By
           </h3>
-          {/* Checkbox Filters */}
           <div className="flex flex-col">
             <label
               htmlFor=""
@@ -203,7 +200,6 @@ const MyBookings = () => {
               />
               Price Low-High
             </label>
-            {/* Add more checkbox filters as needed */}
           </div>
           <hr className="border-b border-[#F1F0F6] border-[1px]  mb-2 w-full" />
 
@@ -268,11 +264,9 @@ const MyBookings = () => {
               />
               Low Budget
             </label>
-            {/* Add more checkbox filters as needed */}
           </div>
           <hr className="border-b border-[#F1F0F6] border-[1px]  mb-2 w-full" />
         </div>
-        {/* Add more filter sections with headings and checkboxes */}
       </div>
 
       <div className=" ">
